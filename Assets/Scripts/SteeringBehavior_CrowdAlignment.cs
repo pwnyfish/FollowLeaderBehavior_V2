@@ -79,7 +79,7 @@ using System.Collections.Generic;
                 return;
             }
 
-            Gizmos.color = Color.green;
+            Gizmos.color = Color.black;
             Gizmos.DrawLine(transform.position, transform.position + m_DesiredVelocity);
 
             //if (SteeringCore.Rigidbody != null)

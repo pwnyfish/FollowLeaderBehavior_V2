@@ -73,12 +73,12 @@ public class SteeringBehavior_CrowdSeparation : SteeringBehavior
             return;
         }
 
-        Gizmos.color = Color.green;
+        Gizmos.color = Color.yellow;
         Gizmos.DrawLine(transform.position, transform.position + m_DesiredVelocity);
 
         //if (SteeringCore.Rigidbody != null)
         {
-            Gizmos.color = Color.red;
+            Gizmos.color = Color.blue;
             Gizmos.DrawLine(transform.position, transform.position + SteeringCore.Velocity);
         }
     }

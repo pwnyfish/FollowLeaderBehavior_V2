@@ -115,7 +115,7 @@ public class SteeringCore : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         // Debug
         if (m_UseDebug)

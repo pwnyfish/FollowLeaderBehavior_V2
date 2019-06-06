@@ -13,7 +13,7 @@ public class SkeletonAnimBehavior : MonoBehaviour
         animator = GetComponentInChildren<Animator>();
         unit = GetComponent<SteeringCrowdUnit>();
     }
-    void Update()
+    void FixedUpdate()
     {
         Vector3 velocity = unit.Velocity;
         speed = velocity.magnitude;

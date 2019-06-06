@@ -259,8 +259,8 @@ MonoBehaviour:
   units: []
   unitPrefab: {fileID: 3808602305694845597, guid: 60585e25431a3cc4aa852e2aff654da1,
     type: 3}
-  numUnits: 100
-  range: 20
+  numUnits: 50
+  range: 40
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
