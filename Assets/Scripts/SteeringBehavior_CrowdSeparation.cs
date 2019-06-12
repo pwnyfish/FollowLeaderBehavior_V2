@@ -7,17 +7,17 @@ public class SteeringBehavior_CrowdSeparation : SteeringBehavior
 {
     #region Attributes
 
-    // Minimum neighbor hood unit count
-    [Tooltip("Minimum number of units in neighbor hood to consider them as a crowd")]
+    // Minimum neighborhood unit count
+    [Tooltip("Minimum number of units in neighborhood to consider them as a crowd")]
     [SerializeField]
     private uint m_MinNeighborHoodUnitCount = 4;
 
-    // Neighbor hood radius
+    // Neighborhood radius
     [Tooltip("Radius of zone detecting any crowd unit")]
     [SerializeField]
     private float m_NeighborHoodRadius = 6;
 
-    // Draw neigbor hood wire sphere
+    // Draw neigborhood wire sphere
     [SerializeField]
     private bool m_DrawNeighborHoodWireSphere = true;
 
@@ -123,7 +123,7 @@ public class SteeringBehavior_CrowdSeparation : SteeringBehavior
         }
 
         Vector3 force;
-        // Calculate separation from neighbor hood
+        // Calculate separation from neighborhood
         for (int i = 0; i < crowdNeighbors.Count; i++)
         {
             force = transform.position - crowdNeighbors[i].transform.position;

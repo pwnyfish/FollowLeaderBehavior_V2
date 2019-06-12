@@ -1011,7 +1011,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_BlendScale: 1
   m_AdaptSpeedToCrowdSpeed: 0
-  m_MinNeighborHoodUnitCount: 2
+  m_MinNeighborHoodUnitCount: 1
   m_NeighborHoodRadius: 12
   m_DrawNeighborHoodWireSphere: 0
 --- !u!114 &8025847769718109015
@@ -1027,8 +1027,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BlendScale: 1
-  m_MinNeighborHoodUnitCount: 4
-  m_NeighborHoodRadius: 6
+  m_MinNeighborHoodUnitCount: 3
+  m_NeighborHoodRadius: 2
   m_DrawNeighborHoodWireSphere: 0
 --- !u!114 &1645504583433298586
 MonoBehaviour:

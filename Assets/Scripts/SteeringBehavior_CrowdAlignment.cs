@@ -12,8 +12,8 @@ using System.Collections.Generic;
         [SerializeField]
         private bool m_AdaptSpeedToCrowdSpeed = false;
 
-        // Minimum neighbor hood unit count
-        [Tooltip("Minimum number of units in neighbor hood to consider them as a crowd")]
+        // Minimum neighborhood unit count
+        [Tooltip("Minimum number of units in neighborhood to consider them as a crowd")]
         [SerializeField]
         private uint m_MinNeighborHoodUnitCount = 4;
 
@@ -22,7 +22,7 @@ using System.Collections.Generic;
         [SerializeField]
         private float m_NeighborHoodRadius = 6;
 
-        // Draw neigbor hood wire sphere
+        // Draw neigborhood wire sphere
         [SerializeField]
         private bool m_DrawNeighborHoodWireSphere = true;
 
